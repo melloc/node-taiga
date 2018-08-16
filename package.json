@@ -1,0 +1,26 @@
+{
+    "name": "taiga",
+    "version": "0.0.1",
+    "description": "Collection of implementations of tree data structures",
+    "keywords": [ "avl" ],
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/melloc/node-taiga.git"
+    },
+    "main": "lib/index.js",
+    "dependencies": {
+        "assert-plus": "^1.0.0"
+    },
+    "devDependencies": {
+        "istanbul": "^0.3.6",
+        "faucet": "0.0.1",
+        "tape": "^3.5.0",
+        "eslint": "^4.13.1",
+        "eslint-plugin-joyent": "~2.1.0"
+    },
+    "scripts": {
+        "test": "./node_modules/.bin/istanbul cover --print none test/run.js"
+    },
+    "author": "Cody Peter Mello <melloc@writev.io>",
+    "license": "MPL-2.0"
+}
